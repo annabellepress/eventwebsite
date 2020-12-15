@@ -1,0 +1,63 @@
+body {
+	background-color: #FFD641;
+}
+.SYT {
+	display: block;
+	font-family: 'shrikhand', cursive;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 85px;
+	line-height: 70px;
+	color: #FDF7E3;
+	padding-top: 40px;
+}
+.text {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 10px;
+	padding: 20px;
+	max-width: 800px;
+	align-content: center;
+	float: center 100%;
+
+}
+.see-you-there {
+	position: relative;
+
+	font-family: korolev light;
+	color: black;
+	font-size: 26px;
+	line-height: 28px;
+	text-align: center;
+}
+.home {
+	font-family: 'shrikhand', cursive;
+	font-size: 40px;
+	position: relative;
+	display: block;
+	padding-top: 40px;
+	text-align: center;
+	color: #40803B;
+}
+a:visited {
+	color: #40803B;
+	text-decoration: none;
+}
+a:link {
+	color: #40803B;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+	color: #FDF7E3;
+	transition: 0.2s all ease;
+}
+@media (max-width: 550px) {
+	.text {
+		font-size: 22px;
+		line-height: 20px;
+	}
+}
